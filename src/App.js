@@ -5,6 +5,9 @@ import { About } from './components/About';
 import { MainNavigation } from './components/MainNavigation';
 import { CharacterList } from './components/CharacterList';
 import { Character } from './components/Character';
+import Catalog from './components/Catalog';
+import Create from './components/Create';
+import Details from './components/Details';
 
 function App() {
     return (
@@ -16,6 +19,9 @@ function App() {
                     <Route path='*' element={<h1>404</h1>} />
                     <Route path='/' element={<Home />} />
                     <Route path='/about' element={<About />} />
+                    <Route path='/catalog' element={<Catalog />} />
+                    <Route path='/create' element={<Create />} /> 
+                    <Route path='/details' element={<Details />} />                    
                     <Route path='/characters' element={<CharacterList />} />
                     <Route path='/characters/:characterId/*' element={<Character />} />
                 </Routes>
