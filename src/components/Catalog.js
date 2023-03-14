@@ -1,6 +1,5 @@
 const Catalog = () => {
-    return (
-        
+    return (        
         <body>
 
 
@@ -10,7 +9,7 @@ const Catalog = () => {
                         <div class="logo">
 
                             <a href="#">
-                                <img width="50px" src="/public/images/free-30-instagram-stories-icons23_122570.png" alt="img1" />
+                                <img width="50px" src="./images/free-30-instagram-stories-icons23_122570.png" alt="img1" />
                             </a>
 
 
@@ -84,7 +83,7 @@ const Catalog = () => {
                                         <div class="profilepic">
                                             <div class="profile_img">
                                                 <div class="image">
-                                                    <img src="../public/images/person.png" />
+                                                    <img src="./images/person.png" />
                                                 </div>
                                             </div>
                                         </div>
@@ -102,7 +101,7 @@ const Catalog = () => {
 
 
                             <div class="imgBx">
-                                <img src="/static/images/axolotl.jpeg" alt="post" class="cover" />
+                                <img src="./images/axolotl.jpeg" alt="post" class="cover" />
                             </div>
 
                             <h5 class="petName">Name: Sal</h5>
@@ -122,7 +121,7 @@ const Catalog = () => {
                                         <div class="profilepic">
                                             <div class="profile_img">
                                                 <div class="image">
-                                                    <img src="/static/images/person.png" alt="img8" />
+                                                    <img src="./images/person.png" alt="img8" />
                                                 </div>
                                             </div>
                                         </div>
@@ -142,7 +141,7 @@ const Catalog = () => {
                             </div>
 
                             <div class="imgBx" id="place the id of the photo here">
-                                <img src="/static/images//dog-on-bed.jpg" alt="post" class="cover" />
+                                <img src="./images//dog-on-bed.jpg" alt="post" class="cover" />
                             </div>
 
                             <h5 class="petName">Name: Buck</h5>
@@ -162,7 +161,7 @@ const Catalog = () => {
                                         <div class="profilepic">
                                             <div class="profile_img">
                                                 <div class="image">
-                                                    <img src="/static/images/person.png" alt="img8" />
+                                                    <img src="./images/person.png" alt="img8" />
                                                 </div>
                                             </div>
                                         </div>
@@ -180,7 +179,7 @@ const Catalog = () => {
                             </div>
 
                             <div class="imgBx" id="place the id of the photo here">
-                                <img src="/static/images/dog-on-road.jpg" alt="post" class="cover" />
+                                <img src="./images/dog-on-road.jpg" alt="post" class="cover" />
                             </div>
 
                             <h5 class="petName">Name: Max</h5>

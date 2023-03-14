@@ -1,6 +1,8 @@
 export const Home = () => {
-    return (    
-    
+    return (  
+        
+        
+   
     <main>
         
         <section class="welcome-content">
@@ -10,12 +12,12 @@ export const Home = () => {
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
             </article>
             <article class="welcome-content-image">
-                <img src="../public/images/header-dog.png" alt="dog"/>
                 <img src="./images/header-dog.png" alt="dog"/>
             </article>
         </section>
 
     </main>
-    
+
     );
 };
+export default Home;
