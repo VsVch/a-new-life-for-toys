@@ -2,33 +2,35 @@ export const Login = () => {
     return (     
          
         <main>
-        
-        <div class="login-register-div">
-            <div class="login-register-box">
-                <h1>Petstagram</h1>
 
-                
-                <form action="#">
-                    <p>
-                        <label>Username:</label>
-                        <input type="text" name="" placeholder="Username"/>
-                    </p>
-                    <p>
-                        <label>Password:</label>
-                        <input type="password" name="" placeholder="Password"/>
-                    </p>
+            <section id="login-container">
 
+                <div class="container">
                     
-                    <button type="submit">LogIn</button>
-                </form>
+                    <img src="/img/slider.jpg" alt="image"/>
 
-            </div>
-            <div class="second-option">                
-                <p>Don't have account? <a href="#">Register</a></p>
-            </div>
-        </div>
+                    <form action="#" method="" class="container-text">
+                        <h2>Login</h2>
+                        <p>Welcome, see the new masterpieces!</p>
 
-    </main>
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" placeholder="ivan_00" name=""/>
+
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" placeholder="*****" name=""/>
+
+                        <button class="login-btn">Login</button>
+                        <div class="card-no-account">
+                            <p>Don't have an account? <a href="#">Sign up</a>.</p>
+                        </div>
+
+                    </form>
+                </div>
+
+            </section>
+
+        </main>
+
 
     );
 };
